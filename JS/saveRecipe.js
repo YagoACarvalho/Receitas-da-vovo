@@ -7,7 +7,6 @@ const nomePessoa = document.querySelector("#nomePessoa").value;
 const ingredientes = document.querySelector('#ingredientes').value;
 const titulo = document.querySelector('#titulo').value;
 const instrucoes = document.querySelector('#instrucoes').value;
-const imgReceita = document.querySelector('#imgReceita').file;
 
 
 const recipe = {
@@ -15,7 +14,6 @@ const recipe = {
     ingredientes: ingredientes,
     titulo: titulo,
     instrucoes: instrucoes,
-    imagem: imgReceita
 };
 
 let recipes = JSON.parse(localStorage.getItem('recipes')) || [];
