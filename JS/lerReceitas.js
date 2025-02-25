@@ -23,3 +23,5 @@ if (recipes.length > 0) {
 } else {
     listaReceitas.innerHTML = "<p>Nenhuma receita encontrada.</p>";
 };
+
+// Testando o controle de versão
