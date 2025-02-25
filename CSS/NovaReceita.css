@@ -2,3 +2,8 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.nova_receita {
+    width: 100%;
+    height: 100vh;
+}
